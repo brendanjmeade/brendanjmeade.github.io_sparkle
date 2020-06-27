@@ -3,9 +3,9 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js11').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');};
+r=function(){dpi=window.devicePixelRatio;$('.js14').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-initMenu($('#m5')[0]);
+initMenu($('#m6')[0]);
 
 });

@@ -3,13 +3,12 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js13').attr('src', (dpi>1) ? 'images/globalblocks-1034.jpg' : 'images/globalblocks-517.jpg');
-$('.js14').attr('src', (dpi>1) ? 'images/tderotated-1226.png' : 'images/tderotated-613.png');
-$('.js15').attr('src', (dpi>1) ? 'images/nn-1082.jpg' : 'images/nn-541.jpg');
-$('.js11').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');
-$('.js12').attr('src', (dpi>1) ? 'images/ex_thrusttopo-1164.jpg' : 'images/ex_thrusttopo-582.jpg');};
+r=function(){dpi=window.devicePixelRatio;$('.js10').attr('src', (dpi>1) ? 'images/ikedamap-420.jpg' : 'images/ikedamap-210.jpg');
+$('.js6').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');
+$('.js7').attr('src', (dpi>1) ? 'images/hurricane-420.jpg' : 'images/hurricane-210.jpg');
+$('.js8').attr('src', (dpi>1) ? 'images/smallnn-420.jpg' : 'images/smallnn-210.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-initMenu($('#m5')[0]);
+initMenu($('#m4')[0]);
 
 });

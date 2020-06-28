@@ -3,12 +3,9 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js9').attr('src', (dpi>1) ? 'images/ikedamap-420.jpg' : 'images/ikedamap-210.jpg');
-$('.js5').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');
-$('.js6').attr('src', (dpi>1) ? 'images/hurricane-420.jpg' : 'images/hurricane-210.jpg');
-$('.js7').attr('src', (dpi>1) ? 'images/smallnn-420.jpg' : 'images/smallnn-210.jpg');};
+r=function(){dpi=window.devicePixelRatio;$('.js17').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-initMenu($('#m4')[0]);
+initMenu($('#m6')[0]);
 
 });

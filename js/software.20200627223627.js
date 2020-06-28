@@ -4,6 +4,8 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 $(document).ready(function() {
 r=function(){dpi=window.devicePixelRatio;$('.js13').attr('src', (dpi>1) ? 'images/globalblocks-1034.jpg' : 'images/globalblocks-517.jpg');
+$('.js14').attr('src', (dpi>1) ? 'images/tderotated-1226.png' : 'images/tderotated-613.png');
+$('.js15').attr('src', (dpi>1) ? 'images/nn-1082.jpg' : 'images/nn-541.jpg');
 $('.js11').attr('src', (dpi>1) ? 'images/harvardlogo-140.jpg' : 'images/harvardlogo-70.jpg');
 $('.js12').attr('src', (dpi>1) ? 'images/ex_thrusttopo-1164.jpg' : 'images/ex_thrusttopo-582.jpg');};
 if(!window.HTMLPictureElement){r();}

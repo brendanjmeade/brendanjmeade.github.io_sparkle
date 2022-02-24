@@ -7,94 +7,110 @@
 <meta name="viewport" content="width=960">
 <link rel="preload" href="css/Lato-Regular.woff2" as="font" crossorigin>
 <link rel="preload" href="css/Lato-Bold.woff2" as="font" crossorigin>
-<style>html,body{-webkit-text-zoom:reset !important}@font-face{font-display:block;font-family:"Lato";src:url('css/Lato-Regular.woff2') format('woff2'),url('css/Lato-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Lato";src:url('css/Lato-Black.woff2') format('woff2'),url('css/Lato-Black.woff') format('woff');font-weight:900}@font-face{font-display:block;font-family:"Lato";src:url('css/Lato-Bold.woff2') format('woff2'),url('css/Lato-Bold.woff') format('woff');font-weight:700}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:1000000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=text],input[type=password],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial!important}
+<style>html,body{-webkit-text-zoom:reset !important}@font-face{font-display:block;font-family:"Lato";src:url('css/Lato-Regular.woff2') format('woff2'),url('css/Lato-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Lato";src:url('css/Lato-Bold.woff2') format('woff2'),url('css/Lato-Bold.woff') format('woff');font-weight:700}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:10000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=text],input[type=password],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial!important}
 html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}.menu-content{cursor:pointer;position:relative}li{-webkit-tap-highlight-color:rgba(0,0,0,0)}
-#b{background-color:#fff}.ps60{position:relative;margin-top:25px}.v14{display:block;vertical-align:top}.s65{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:2627px}.v15{display:inline-block;vertical-align:top}.ps61{position:relative;margin-left:68px;margin-top:0}.s66{min-width:810px;width:810px;min-height:115px}.c76{z-index:1}.ps62{position:relative;margin-left:0;margin-top:0}.s67{min-width:679px;width:679px;min-height:90px}.ps63{position:relative;margin-left:0;margin-top:5px}.s68{min-width:70px;width:70px;min-height:61px;height:61px}.c78{z-index:3;pointer-events:auto}.i17{position:absolute;left:0;width:70px;height:57px;top:2px;border:0}.i18{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.ps64{position:relative;margin-left:-3px;margin-top:0}.s69{min-width:612px;width:612px;min-height:90px}.c79{z-index:5;pointer-events:auto;overflow:hidden;height:90px}.p10{text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f29{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.v16{display:inline-block;vertical-align:top;overflow:visible}.ps65{position:relative;margin-left:12px;margin-top:0}.s70{min-width:798px;width:798px;min-height:25px;height:25px}.c80{pointer-events:auto}.m5{padding:0px 0px 0px 0px}.ml5{outline:0}.s71{min-width:133px;width:133px;min-height:25px;height:25px}.mcv5{display:inline-block}.s72{min-width:131px;width:131px;min-height:23px;height:23px}.c81{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.ps66{position:relative;margin-left:0;margin-top:4px}.s73{min-width:131px;width:131px;min-height:15px}.c82{pointer-events:auto;overflow:hidden;height:15px}.p11{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f30{font-family:Lato;font-size:14px;font-size:calc(14px * var(--f));line-height:1.072;font-weight:900;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.c83{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c84{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c85{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c86{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c87{pointer-events:none;border:1px solid #000;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.ps67{position:relative;margin-left:81px;margin-top:74px}.s74{min-width:799px;width:799px;min-height:134px}.c88{z-index:2;pointer-events:auto;overflow:hidden;height:134px}.f31{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.f32{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:400;font-style:normal;text-decoration:underline;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps68{position:relative;margin-left:82px;margin-top:0}.s75{min-width:746px;width:746px;min-height:291px;height:291px}.c89{z-index:6;pointer-events:auto}.i19{position:absolute;left:82px;width:582px;height:291px;top:0;border:0}.ps69{position:relative;margin-left:81px;margin-top:87px}.s76{min-width:799px;width:799px;min-height:204px}.c90{z-index:7;pointer-events:auto;overflow:hidden;height:204px}.menu-device{background-color:rgb(0,0,0);display:none}</style>
-<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.4313d4.css" media="print">
+#b{background-color:#fff}.ps67{position:relative;margin-top:25px}.v14{display:block;vertical-align:top}.s63{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:3070px}.v15{display:inline-block;vertical-align:top}.ps68{position:relative;margin-left:40px;margin-top:0}.s64{min-width:815px;width:815px;min-height:102px}.ps69{position:relative;margin-left:0;margin-top:0}.w6{line-height:0}.ps70{position:relative;margin-left:28px;margin-top:0}.s65{min-width:679px;width:679px;min-height:90px}.c81{z-index:1}.ps71{position:relative;margin-left:67px;margin-top:0}.s66{min-width:612px;width:612px;min-height:90px}.c82{z-index:4;pointer-events:auto;overflow:hidden;height:90px}.p10{text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f26{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps72{position:relative;margin-left:0;margin-top:-85px}.s67{min-width:70px;width:70px;min-height:61px;height:61px}.c83{z-index:3;pointer-events:auto}.i17{position:absolute;left:0;width:70px;height:57px;top:2px;border:0}.i18{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.v16{display:inline-block;vertical-align:top;overflow:visible}.ps73{position:relative;margin-left:0;margin-top:-17px}.s68{min-width:815px;width:815px;min-height:29px;height:29px}.c84{z-index:13;pointer-events:auto}.m5{padding:0px 0px 0px 0px}.ml5{outline:0}.s69{min-width:135px;width:135px;min-height:29px;height:29px}.mcv5{display:inline-block}.s70{min-width:135px;width:135px;min-height:29px}.c85{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.ps74{position:relative;margin-left:0;margin-top:4px}.s71{min-width:135px;width:135px;min-height:21px}.c86{pointer-events:auto;overflow:hidden;height:21px}.p11{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f27{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.101;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps75{position:relative;margin-left:1px;margin-top:0}.c87{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c88{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c89{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c90{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.c91{pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box}.ps76{position:relative;margin-left:81px;margin-top:98px}.s72{min-width:799px;width:799px;min-height:361px}.s73{min-width:799px;width:799px;min-height:170px}.c92{z-index:2;pointer-events:auto;overflow:hidden;height:170px}.f28{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.f29{font-family:Lato;font-size:20px;font-size:calc(20px * var(--f));line-height:1.701;font-weight:400;font-style:normal;text-decoration:underline;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps77{position:relative;margin-left:28px;margin-top:-100px}.s74{min-width:746px;width:746px;min-height:291px;height:291px}.c93{z-index:9;pointer-events:auto}.i19{position:absolute;left:0;width:746px;height:274px;top:8px;border:0}.ps78{position:relative;margin-left:81px;margin-top:71px}.s75{min-width:799px;width:799px;min-height:134px}.c94{z-index:12;pointer-events:auto;overflow:hidden;height:134px}.ps79{position:relative;margin-left:82px;margin-top:0}.c95{z-index:5;pointer-events:auto}.i20{position:absolute;left:82px;width:582px;height:291px;top:0;border:0}.menu-device{background-color:rgb(0,0,0);display:none}</style>
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.2911ff.css" media="print">
 </head>
 <body id="b">
-<div class="ps60 v14 s65">
-<div class="v15 ps61 s66 c76">
-<div class="v15 ps62 s67 c77">
-<div class="v15 ps63 s68 c78">
+<div class="ps67 v14 s63">
+<div class="v15 ps68 s64 c80">
+<div class="v15 ps69 s64 w6">
+<div class="v15 ps70 s65 c81">
+<div class="v15 ps71 s66 c82">
+<p class="p10 f26">Brendan Meade</p>
+<p class="p10 f26">Professor of Earth &amp; Planetary Sciences, Harvard University</p>
+</div>
+<div class="v15 ps72 s67 c83">
 <picture class="i18">
 <source srcset="images/harvardlogo-70-1.jpg 1x, images/harvardlogo-140-1.jpg 2x">
-<img src="images/harvardlogo-140-1.jpg" class="un13 i17">
+<img src="images/harvardlogo-140-1.jpg" class="un15 i17">
 </picture>
 </div>
-<div class="v15 ps64 s69 c79">
-<p class="p10 f29">Brendan Meade</p>
-<p class="p10 f29">Professor of Earth &amp; Planetary Sciences, Harvard University</p>
 </div>
-</div>
-<div class="v16 ps65 s70 c80">
-<ul class="menu-dropdown v15 ps62 s70 m5" id="m5">
-<li class="v15 ps62 s71 mit5">
-<a href="./" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c81"><div class="v15 ps66 s73 c82"><p class="p11 f30">Home</p></div></div></div></a>
+<div class="v16 ps73 s68 c84">
+<ul class="menu-dropdown v15 ps69 s68 m5" id="m5">
+<li class="v15 ps69 s69 mit5">
+<a href="./" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c85"><div class="v15 ps74 s71 c86"><p class="p11 f27">Home</p></div></div></div></a>
 </li>
-<li class="v15 ps62 s71 mit5">
-<a href="classes.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c83"><div class="v15 ps66 s73 c82"><p class="p11 f30">Classes</p></div></div></div></a>
+<li class="v15 ps75 s69 mit5">
+<a href="classes.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c87"><div class="v15 ps74 s71 c86"><p class="p11 f27">Classes</p></div></div></div></a>
 </li>
-<li class="v15 ps62 s71 mit5">
-<a href="people.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c84"><div class="v15 ps66 s73 c82"><p class="p11 f30">People</p></div></div></div></a>
+<li class="v15 ps75 s69 mit5">
+<a href="people.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c88"><div class="v15 ps74 s71 c86"><p class="p11 f27">People</p></div></div></div></a>
 </li>
-<li class="v15 ps62 s71 mit5">
-<a href="papers.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c85"><div class="v15 ps66 s73 c82"><p class="p11 f30">Papers</p></div></div></div></a>
+<li class="v15 ps75 s69 mit5">
+<a href="papers.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c89"><div class="v15 ps74 s71 c86"><p class="p11 f27">Papers</p></div></div></div></a>
 </li>
-<li class="v15 ps62 s71 mit5">
-<a href="#" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c86"><div class="v15 ps66 s73 c82"><p class="p11 f30">Software</p></div></div></div></a>
+<li class="v15 ps75 s69 mit5">
+<a href="#" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c90"><div class="v15 ps74 s71 c86"><p class="p11 f27">Software</p></div></div></div></a>
 </li>
-<li class="v15 ps62 s71 mit5">
-<a href="notes.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps62 s72 c87"><div class="v15 ps66 s73 c82"><p class="p11 f30">Notes</p></div></div></div></a>
+<li class="v15 ps75 s69 mit5">
+<a href="notes.html" class="ml5"><div class="menu-content mcv5"><div class="v15 ps69 s70 c91"><div class="v15 ps74 s71 c86"><p class="p11 f27">Notes</p></div></div></div></a>
 </li>
 </ul>
 </div>
 </div>
-<div class="v15 ps67 s74 c88">
-<p class="p10 f31">Bem2d.jl<span class="f29"> - </span><span class="f32"><a href="https://github.com/brendanjmeade/Bem2d.jl">Github repository</a></span></p>
-<p class="p10 f29">A Julia based code for two-dimensional plane strain linear elastic boundary element (BEM) calculations (both quasi-static and quasi-dynamic) related to earthquakes and tectonics.</p>
 </div>
-<div class="v15 ps68 s75 c89">
+<div class="v15 ps76 s72 c80">
+<div class="v15 ps69 s72 w6">
+<div class="v15 ps69 s73 c92">
+<p class="p10 f28">celeri<span class="f26"> - </span><span class="f29"><a href="https://github.com/brendanjmeade/celeri">Github repository</a></span></p>
+<p class="p10 f26">Next generation python based imaging of earthquake cycle, fault and plate kinematics.</p>
+</div>
+<div class="v15 ps77 s74 c93">
+<picture class="i18">
+<source srcset="images/celeri_logo-746.jpg 1x">
+<img src="images/celeri_logo-746.jpg" class="un16 i19">
+</picture>
+</div>
+</div>
+</div>
+<div class="v15 ps78 s75 c94">
+<p class="p10 f28">Bem2d.jl<span class="f26"> - </span><span class="f29"><a href="https://github.com/brendanjmeade/Bem2d.jl">Github repository</a></span></p>
+<p class="p10 f26">A Julia based code for two-dimensional plane strain linear elastic boundary element (BEM) calculations (both quasi-static and quasi-dynamic) related to earthquakes and tectonics.</p>
+</div>
+<div class="v15 ps79 s74 c95">
 <picture class="i18">
 <source srcset="images/ex_thrusttopo-582-1.jpg 1x, images/ex_thrusttopo-1164-1.jpg 2x">
-<img src="images/ex_thrusttopo-1164-1.jpg" class="un14 i19">
+<img src="images/ex_thrusttopo-1164-1.jpg" class="un17 i20">
 </picture>
 </div>
-<div class="v15 ps69 s76 c90">
-<p class="p10 f31">Blocks <span class="f29">- </span><span class="f32"><a href="https://github.com/jploveless/Blocks">Github repository</a></span></p>
-<p class="p10 f29">A Matlab based block model code integrating plate motions, internal deformation, and a first order approximation of earthquake cycle effects associated with the partial coupling of plate bounding faults.&nbsp;&nbsp;<span class="f32"><a href="http://www.science.smith.edu/jloveless/">Jack Loveless</a></span> is the lead developer and responsible for everything good about the code!</p>
+<div class="v4 ps60 s56 c74">
+<p class="p3 f6">Blocks <span class="f7">- </span><span class="f25"><a href="https://github.com/jploveless/Blocks">Github repository</a></span></p>
+<p class="p3 f7">A Matlab based block model code integrating plate motions, internal deformation, and a first order approximation of earthquake cycle effects associated with the partial coupling of plate bounding faults.&nbsp;&nbsp;<span class="f25"><a href="http://www.science.smith.edu/jloveless/">Jack Loveless</a></span> is the lead developer and responsible for everything good about the code!</p>
 </div>
-<div class="v4 ps54 s59 c70">
-<picture class="i5 un18">
+<div class="v4 ps61 s57 c75">
+<picture class="i5 un21">
 <source data-srcset="images/globalblocks-517-1.jpg 1x, images/globalblocks-1034-1.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1x">
-<img src="images/globalblocks-1034-1.jpg" class="un15 i14">
+<img src="images/globalblocks-1034-1.jpg" class="un18 i14">
 </picture>
 </div>
-<div class="v4 ps55 s60 c71">
-<p class="p3 f6">Triangular dislocation elements <span class="f7">- </span><span class="f28"><a href="https://github.com/brendanjmeade/tde">Github repository</a></span></p>
-<p class="p3 f7">A Matlab implementation of the closed form solutions for the volumetric strains, stresses, and displacements due to slip on a triangular dislocation element in a homogeneous elastic halfspace.&nbsp;&nbsp;<span class="f28"><a href="http://rocksandwater.net/">Richard Styron</a></span> has developed a python <span class="f28"><a href="https://github.com/cossatot/tri_dislocations_python">version</a></span> and <span class="f28"><a href="https://academic.oup.com/gji/article/201/2/1119/572006">Nikkhoo and Walter (2015)</a></span> have developed a <span class="f7">theory and implementation</span> free of many of the singularities present in the original.</p>
+<div class="v4 ps62 s58 c76">
+<p class="p3 f6">Triangular dislocation elements <span class="f7">- </span><span class="f25"><a href="https://github.com/brendanjmeade/tde">Github repository</a></span></p>
+<p class="p3 f7">A Matlab implementation of the closed form solutions for the volumetric strains, stresses, and displacements due to slip on a triangular dislocation element in a homogeneous elastic halfspace.&nbsp;&nbsp;<span class="f25"><a href="http://rocksandwater.net/">Richard Styron</a></span> has developed a python <span class="f25"><a href="https://github.com/cossatot/tri_dislocations_python">version</a></span> and <span class="f25"><a href="https://academic.oup.com/gji/article/201/2/1119/572006">Nikkhoo and Walter (2015)</a></span> have developed a <span class="f7">theory and implementation</span> free of many of the singularities present in the original.</p>
 </div>
-<div class="v4 ps56 s59 c72">
-<picture class="i5 un19">
+<div class="v4 ps63 s57 c24">
+<picture class="i5 un22">
 <source data-srcset="images/tderotated-613-1.png 1x, images/tderotated-1226-1.png 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1x">
-<img src="images/tderotated-1226-1.png" class="un16 i15">
+<img src="images/tderotated-1226-1.png" class="un19 i15">
 </picture>
 </div>
-<div class="v4 ps57 s61 c16">
-<div class="v4 ps12 s61 w2">
-<div class="v4 ps12 s62 c73">
-<p class="p3 f6">Machine learning aftershock locations <span class="f7">- </span><span class="f28"><a href="https://github.com/phoebemrdevries/Learning-aftershock-location-patterns">Github repository</a></span></p>
-<p class="p3 f7">A Python pipeline for learning (using <span class="f28"><a href="https://keras.io/">Keras</a></span>) the relationships between mainshock (from <span class="f28"><a href="http://equake-rc.info/srcmod/">SRCMOD catalog</a></span>) static elastic stress changes and aftershock locations.&nbsp;&nbsp;Pheobe DeVries is the lead developer and any errors are due to me!&nbsp;</p>
+<div class="v4 ps64 s59 c16">
+<div class="v4 ps12 s59 w2">
+<div class="v4 ps12 s60 c77">
+<p class="p3 f6">Machine learning aftershock locations <span class="f7">- </span><span class="f25"><a href="https://github.com/phoebemrdevries/Learning-aftershock-location-patterns">Github repository</a></span></p>
+<p class="p3 f7">A Python pipeline for learning (using <span class="f25"><a href="https://keras.io/">Keras</a></span>) the relationships between mainshock (from <span class="f25"><a href="http://equake-rc.info/srcmod/">SRCMOD catalog</a></span>) static elastic stress changes and aftershock locations.&nbsp;&nbsp;Pheobe DeVries is the lead developer and any errors are due to me!&nbsp;</p>
 </div>
-<div class="v4 ps58 s63 c74">
-<picture class="i5 un20">
+<div class="v4 ps65 s61 c78">
+<picture class="i5 un23">
 <source data-srcset="images/nn-541-1.jpg 1x, images/nn-1082-1.jpg 2x" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1x">
-<img src="images/nn-1082-1.jpg" class="un17 i16">
+<img src="images/nn-1082-1.jpg" class="un20 i16">
 </picture>
 </div>
 </div>
 </div>
-<div class="v4 ps59 s64 c75">
+<div class="v4 ps66 s62 c79">
 <p class="p3 f6"><br></p>
 <p class="p3 f6"><br></p>
 <p class="p3 f6"><br></p>
@@ -112,9 +128,9 @@ html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}.menu
 </div>
 <div class="btf c1">
 </div>
-<script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=parseInt(1e7/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size"))+.5)/1e5,n=document.body;r!=n.style.getPropertyValue("--f")&&n.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),window.requestAnimationFrame(raf)};window.requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
+<script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=parseInt(1e7/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size"))+.5)/1e5,n=document.body;r!=n.style.getPropertyValue("--f")&&n.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),requestAnimationFrame(raf)};requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
 
-<script>dpth="/";!function(){for(var e=["js/jquery.780151.js","js/jqueryui.780151.js","js/menu.780151.js","js/menu-dropdown-animations.780151.js","js/menu-dropdown.4313d4.js","js/software.4313d4.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<6&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<6;o++)t(o)}();
+<script>dpth="/";!function(){for(var e=["js/jquery.6a0b06.js","js/jqueryui.6a0b06.js","js/menu.6a0b06.js","js/menu-dropdown-animations.6a0b06.js","js/menu-dropdown.2911ff.js","js/software.2911ff.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<6&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<6;o++)t(o)}();
 </script>
 </body>
 </html>
